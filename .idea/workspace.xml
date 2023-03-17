@@ -9,20 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f79647cb-5702-4515-97ae-76fe8414d090" name="Changes" comment="first spring mvc example">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/dao/CustomerDaoImplV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers.jsp" afterDir="false" />
+    <list default="true" id="f79647cb-5702-4515-97ae-76fe8414d090" name="Changes" comment="final version with errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/dao/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/dao/CustomerDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/entities/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/metier/CustomerMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/metier/CustomerMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/metier/CustomerMetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/metier/CustomerMetierImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/util/HibernateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679047038865</updated>
       <workItem from="1679047040290" duration="4028000" />
-      <workItem from="1679059354176" duration="1504000" />
+      <workItem from="1679059354176" duration="2588000" />
     </task>
     <task id="LOCAL-00001" summary="first spring mvc example">
       <created>1679048837623</created>
@@ -207,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679048837623</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final version with errors">
+      <created>1679061098380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679061098380</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +213,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first spring mvc example" />
-    <option name="LAST_COMMIT_MESSAGE" value="first spring mvc example" />
+    <MESSAGE value="final version with errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version with errors" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/supemir/tp2/util/HibernateUtil.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/supemir/tp2/util/HibernateUtil.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
