@@ -1,6 +1,6 @@
-package org.supemir.tp2.controllers.dao;
+package org.supemir.tp2.dao;
 
-import org.supemir.tp2.controllers.entities.Customer;
+import org.supemir.tp2.entities.Customer;
 
 import java.util.List;
 

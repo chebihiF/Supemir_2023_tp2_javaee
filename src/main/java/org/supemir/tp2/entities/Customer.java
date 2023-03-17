@@ -1,4 +1,4 @@
-package org.supemir.tp2.controllers.entities;
+package org.supemir.tp2.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

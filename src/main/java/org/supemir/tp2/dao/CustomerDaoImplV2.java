@@ -1,14 +1,13 @@
-package org.supemir.tp2.controllers.dao;
+package org.supemir.tp2.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.supemir.tp2.controllers.entities.Customer;
-import org.supemir.tp2.controllers.util.HibernateUtil;
+import org.supemir.tp2.entities.Customer;
+import org.supemir.tp2.util.HibernateUtil;
 
 import java.util.List;
 
-public class CustomerDaoImpl implements CustomerDao {
-
+public class CustomerDaoImplV2 implements CustomerDao{
     private SessionFactory factory = HibernateUtil.getFactory();
     private Session session;
 
@@ -20,6 +19,7 @@ public class CustomerDaoImpl implements CustomerDao {
             else
                 session = factory.openSession();
             session.beginTransaction();
+            System.out.println("before saving ..");
             session.save(customer);
             session.getTransaction().commit();
             return customer;

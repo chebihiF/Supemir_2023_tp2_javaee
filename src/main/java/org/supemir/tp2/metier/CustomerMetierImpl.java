@@ -1,8 +1,7 @@
-package org.supemir.tp2.controllers.metier;
+package org.supemir.tp2.metier;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.supemir.tp2.controllers.dao.CustomerDao;
-import org.supemir.tp2.controllers.entities.Customer;
+import org.supemir.tp2.dao.CustomerDao;
+import org.supemir.tp2.entities.Customer;
 
 import java.util.List;
 

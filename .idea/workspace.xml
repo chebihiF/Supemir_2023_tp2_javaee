@@ -10,15 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f79647cb-5702-4515-97ae-76fe8414d090" name="Changes" comment="first spring mvc example">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/dao/CustomerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/entities/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/metier/CustomerMetier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/metier/CustomerMetierImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/dao/CustomerDaoImplV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/metier/CustomerMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/metier/CustomerMetier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/metier/CustomerMetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/metier/CustomerMetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/controllers/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/supemir/tp2/util/HibernateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" afterDir="false" />
     </list>
@@ -31,9 +33,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -83,6 +85,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "98d648825b692edb5772da0b209b82a3",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -195,6 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679047038865</updated>
       <workItem from="1679047040290" duration="4028000" />
+      <workItem from="1679059354176" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="first spring mvc example">
       <created>1679048837623</created>

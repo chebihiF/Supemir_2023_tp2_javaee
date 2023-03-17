@@ -11,9 +11,9 @@
         <property name="prefix" value="WEB-INF/views/"/>
     </bean>
 
-    <bean id="custoemrDao" class="org.supemir.tp2.controllers.dao.CustomerDaoImpl"/>
+    <bean id="custoemrDao" class="org.supemir.tp2.dao.CustomerDaoImplV2"/>
 
-    <bean id="metier" class="org.supemir.tp2.controllers.metier.CustomerMetierImpl">
+    <bean id="metier" class="org.supemir.tp2.metier.CustomerMetierImpl">
         <property name="dao" ref="custoemrDao" />
     </bean>
 
